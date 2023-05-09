@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="a.css">
+<link rel="stylesheet"
+    href="//res.wx.qq.com/t/wx_fed/base/weixin_portal/res/static/css/feadca13629b9dabbc7dbfe97978428e.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<body onload="window.scrollTo(0,2000);">
+    <main class="main1">
+        <header>
+            <p><span>WeChat(繁体)丨WeChat(EN)</span></p>
+        </header>
+        <div class="box animate__animated animate__fadeInUp">
+            <div class="box-one">
+                <i class="banner__logo"></i>
+                <!-- <img  src="https://img2.baidu.com/it/u=1956526588,2677021080&fm=253&fmt=auto&app=120&f=JPEG?w=716&h=403"alt=""> -->
+            </div>
+            <div class="box-two">
+                <p>微信键盘 0.9.1 for Mac 灰度版发布<span>05-06</span></p>
+                <p>微信 8.0.37 for ios 正式版发布<span>04-27</span> </p>
+                <p>微信 8.0.35 for Android 正式版发布<span>04-20</span></p>
+                <p>更多日志></p>
+            </div>
+            <div class="box-three">
+                <ul>
+                    <li><i class="icon-android"></i>
+                        <span>Android</span>
+                    </li>
+                    <li class="ll">
+                        <i class="icon-ios"></i>
+                        <span>ios</span>
+                    </li>
+                    <li><i class="icon-windows"></i>
+                        <span>Windows</span>
+                    </li>
+                    <li><i class="icon-macos"></i>
+                        <span>macOS</span>
+                    </li>
+                    <li><i class="icon-transfer"></i>
+                        <span>文件传输</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="box-four">
+                <ul>
+                    <li><i class="icon-child-watch"></i><span>儿童手表版</span></li>
+                    <li><i class="icon-car"></i><span>车载版</span></li>
+                    <li><i class="icon-z-out"></i><span>微信键盘</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box1">
+            <ul>
+                <li><i class="icon-wechat-pay"></i><span>微信支付</span></li>
+                <li><i class="icon-mp"></i><span>公众号</span></li>
+                <li><i class="icon-mini-program"></i><span>小程序</span></li>
+                <li><i class="icon-finder"></i><span>视频号助手</span></li>
+                <li><i class="icon-mini-game"></i><span>小游戏</span></li>
+                <li><i class="icon-mini-store"></i><span>小商店</span></li>
+                <li><i class="icon-sticker"></i><span>表情开放平台</span></li>
+                <li><i class="icon-search"></i><span>搜一搜开放平台</span></li>
+                <li><i class="icon-red-pocket"></i><span>红包封面开放平台</span></li>
+                <li><i class="icon-openai"></i><span>对话开放平台</span></li>
+                <li><i class="icon-open-platform"></i><span>开放社区</span></li>
+                <li><i class="icon-service"></i><span>服务市场</span></li>
+                <li><i class="icon-wecom"></i><span>企业微信</span></li>
+                <li><i class="icon-edu"></i><span>微信学堂</span></li>
+                <li><i class="icon-wedesign"></i><span>官方设计资源</span></li>
+                <li><i class=""></i><span>开放平台</span></li>
+                <li><i class=""></i><span>硬件平台</span></li>
+                <li><i class=""></i><span>微信广告</span></li>
+                <li><i class=""></i><span>官方文档</span></li>
+            </ul>
+        </div>
+        <footer>
+            <p>关于腾讯丨微信安全丨服务条款丨 使用规范丨客服中心丨隐私保护指引</p>
+            <p>备案号:粤B2-20090059</p>
+            <p>Copyright @1998-2023 Tencent All Rights Reserved.</p>
+
+        </footer>
+    </main>
+</body>
+<script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(function () {
+        $('.ll').mouseenter(l1)
+        $('.ll').mouseleave(l2)
+    })
+    let html = `   <i><img src="https://img0.baidu.com/it/u=304503446,1584310435&fm=253&fmt=auto&app=138&f=GIF?w=500&h=508"
+                                alt=""></i>
+                        <span>扫描二维码下载</span>`
+    let html1 = `   <i class="icon-ios"></i>
+                        <span>ios</span>`
+    function l1() {
+        $('.ll').html(html)
+        $('.ll').css('background', '#2AAe67')
+        $('.ll').css('font-size', '16px')
+    }
+    function l2() {
+        $('.ll').html(html1)
+        $('.ll').css('background-color', 'rgb(74, 186, 126)')
+        $('.ll').css('font-size', '20px')
+    }
+</script>
+
+</html>
